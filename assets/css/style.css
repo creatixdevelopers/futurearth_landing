@@ -132,7 +132,7 @@ h6 {
 #hero {
 	width: 100%;
 	height: 100vh;
-	background: url("https://www.futurearthgroup.com/wp-content/uploads/2021/06/Aditya-Website-Proejct-banner-1920x1080-copy.jpeg") center center;
+	background: url("../img/banner.jpg") center center;
 	background-size: cover;
 	position: relative;
 }
@@ -685,19 +685,19 @@ section {
 
 
 .nb-form ::-webkit-input-placeholder {
-  color: #ccb0b0;
+  color: #b5d033;
 }
 
 .nb-form ::-moz-placeholder{
-  color: #ccb0b0;
+  color: #b5d033;
 }
 
 .nb-form :-ms-input-placeholder {
-  color: #ccb0b0;
+  color: #b5d033;
 }
 
 .nb-form :-moz-placeholder {
-  color: #ccb0b0;
+  color: #b5d033;
 }
 
 .nb-form input[type='submit'] {
