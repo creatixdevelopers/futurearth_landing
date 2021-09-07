@@ -172,42 +172,6 @@ h6 {
 	font-size: 24px;
 }
 
-#hero .icon-box {
-	padding: 30px 20px;
-	transition: ease-in-out 0.3s;
-	border: 1px solid rgba(255, 255, 255, 0.3);
-	height: 100%;
-	text-align: center;
-}
-
-#hero .icon-box i {
-	font-size: 32px;
-	line-height: 1;
-	color: #b5d033;
-}
-
-#hero .icon-box h3 {
-	font-weight: 700;
-	margin: 10px 0 0 0;
-	padding: 0;
-	line-height: 1;
-	font-size: 20px;
-	line-height: 26px;
-}
-
-#hero .icon-box h3 a {
-	color: #fff;
-	transition: ease-in-out 0.3s;
-}
-
-#hero .icon-box h3 a:hover {
-	color: #b5d033;
-}
-
-#hero .icon-box:hover {
-	border-color: #b5d033;
-}
-
 @media (min-width: 1024px) {
 	#hero {
 		background-attachment: fixed;
@@ -606,6 +570,17 @@ section {
 	font-size: 18px;
 }
 
+@media (max-width: 768px){
+	#highlights h4{
+		font-size: 16px;
+	}
+	
+	#highlights p{
+		font-size: 14px;
+	}
+
+}
+
 /*------------- Form ---------------*/
 
 .nb-form {
@@ -743,7 +718,7 @@ section {
   }
   .nb-form{
       right: 50%;
-      bottom: -320px;
+      bottom: -335px;
       left: 50%;
       transform: translateX(-50%);
   }
