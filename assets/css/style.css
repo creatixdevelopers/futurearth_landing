@@ -26,45 +26,6 @@ h6 {
 	font-family: "Raleway", sans-serif;
 }
 
-
-/*--------------------------------------------------------------
-# Back to top button
---------------------------------------------------------------*/
-
-.back-to-top {
-	position: fixed;
-	visibility: hidden;
-	opacity: 0;
-	right: 15px;
-	bottom: 15px;
-	z-index: 996;
-	background: #b5d033;
-	width: 40px;
-	height: 40px;
-	border-radius: 4px;
-	transition: all 0.4s;
-}
-
-.back-to-top i {
-	font-size: 28px;
-	color: #151515;
-	line-height: 0;
-}
-
-.back-to-top:hover {
-	background: #151515;
-}
-
-.back-to-top:hover i {
-	color: #b5d033;
-}
-
-.back-to-top.active {
-	visibility: visible;
-	opacity: 1;
-}
-
-
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -124,7 +85,6 @@ h6 {
 	}
 }
 
-
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -172,6 +132,14 @@ h6 {
 	font-size: 24px;
 }
 
+#hero hr {
+	color: #b5d033;
+	height: 2px;
+	opacity: 1;
+	width: 30%;
+	margin: auto;
+}
+
 @media (min-width: 1024px) {
 	#hero {
 		background-attachment: fixed;
@@ -198,7 +166,7 @@ h6 {
 --------------------------------------------------------------*/
 
 section {
-	padding: 60px 0;
+	padding: 30px 0;
 	overflow: hidden;
 }
 
@@ -248,29 +216,6 @@ section {
 	font-family: "Poppins", sans-serif;
 }
 
-.about .content ul {
-	list-style: none;
-	padding: 0;
-}
-
-.about .content ul li {
-	padding: 0 0 8px 26px;
-	position: relative;
-}
-
-.about .content ul i {
-	position: absolute;
-	font-size: 20px;
-	left: 0;
-	top: -3px;
-	color: #b5d033;
-}
-
-.about .content p:last-child {
-	margin-bottom: 0;
-}
-
-
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
@@ -305,10 +250,9 @@ section {
 .features .image {
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: contain;
 	min-height: 400px;
 }
-
 
 /*--------------------------------------------------------------
 # location
@@ -369,7 +313,6 @@ section {
 	transform: translateY(-10px);
 }
 
-
 /*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
@@ -407,7 +350,7 @@ section {
 .cta .cta-btn:hover {
 	background: #b5d033;
 	border-color: #b5d033;
-	color: #151515;
+	color: #fff;
 }
 
 
@@ -423,7 +366,7 @@ section {
 .contact .info i {
 	font-size: 20px;
 	background: #b5d033;
-	color: #151515;
+	color: #fff;
 	float: left;
 	width: 44px;
 	height: 44px;
@@ -530,7 +473,7 @@ section {
 	background: #b5d033;
 	border: 0;
 	padding: 10px 24px;
-	color: #151515;
+	color: #fff;
 	transition: 0.4s;
 	border-radius: 4px;
 }
@@ -581,6 +524,28 @@ section {
 
 }
 
+#highlights-footer p{
+	color: #fff;
+	font-size: 18px;
+	float: left;
+}
+#highlights-footer h3{
+	color: #b5d033;
+	float: left;
+}
+
+@media (max-width: 768px){
+	#highlights-footer p{
+		float: unset;
+	}
+	#highlights-footer h3{
+		float: unset;
+	}
+	#infrastructure{
+		margin-top: -5rem;
+	}
+}
+
 /*------------- Form ---------------*/
 
 .nb-form {
@@ -588,7 +553,7 @@ section {
   z-index: 9999;
   width: 300px;
   right: 20px;
-  bottom: -305px;
+  bottom: -385px;
   transition: all .8s cubic-bezier(.22, .67, .43, 1.22) .2s;
   border-radius: 10px 10px 0 0;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2);
@@ -685,19 +650,19 @@ section {
 
 
 .nb-form ::-webkit-input-placeholder {
-  color: #b5d033;
+  color: #000000;
 }
 
 .nb-form ::-moz-placeholder{
-  color: #b5d033;
+  color: #000000;
 }
 
 .nb-form :-ms-input-placeholder {
-  color: #b5d033;
+  color: #000000;
 }
 
 .nb-form :-moz-placeholder {
-  color: #b5d033;
+  color: #000000;
 }
 
 .nb-form input[type='submit'] {
@@ -718,7 +683,7 @@ section {
   }
   .nb-form{
       right: 50%;
-      bottom: -335px;
+      bottom: -390px;
       left: 50%;
       transform: translateX(-50%);
   }
